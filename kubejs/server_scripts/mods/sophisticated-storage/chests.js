@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'minecraft:chest' });
 	
 	for(const woodType of global.woodTypes) {
-		let chest = `sophisticatedstorage:chest[sophisticatedstorage:wood_type="${woodType}"]`
+		let chest = `sophisticatedstorage:chest[sophisticatedstorage:wood_type="${woodType}"]`;
 		
 		event.remove({ output: chest });
 		
