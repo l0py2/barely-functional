@@ -857,8 +857,12 @@ file = "kubejs/startup_scripts/unify/mods/minecraft.js"
 hash = "7bdfa247825dab54ae987d1df4e0f4977ca4ec5d007c23e8d5c102f222310f78"
 
 [[files]]
+file = "kubejs/startup_scripts/unify/mods/sophisticated-backpacks.js"
+hash = "add0bb57efdff2d9a28aef7ceca11002d96de7b4545cb1ea89eaa0bfd5b0210d"
+
+[[files]]
 file = "kubejs/startup_scripts/unify/mods/sophisticated-storage.js"
-hash = "4fab76a128368b84caa9446bf35335e048c250fc0947dab4a5aeebce41f1791b"
+hash = "26b3a3593a3675c012814f272aa6a1d7d207695f6d87ef6acd4b0243de0a3e23"
 
 [[files]]
 file = "kubejs/startup_scripts/unify/variables.js"
