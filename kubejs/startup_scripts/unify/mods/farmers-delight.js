@@ -1,17 +1,17 @@
 //priority: 100
 
 global.removedItems = global.removedItems.concat([
-	'minecraft:furnace'
+	'farmersdelight:rope'
 ]);
 
 global.inputReplacements = global.inputReplacements.concat([
-	['minecraft:furnace', 'minecraft:blast_furnace']
+	['farmersdelight:rope', '#c:ropes']
 ]);
 
 global.outputReplacements = global.outputReplacements.concat([
-	['minecraft:furnace', 'minecraft:blast_furnace']
+	['farmersdelight:rope', 'supplementaries:rope']
 ]);
 
 global.dropReplacements = global.dropReplacements.concat([
-	['minecraft:furnace', 'minecraft:blast_furnace']
+	['farmersdelight:rope', 'supplementaries:rope']
 ]);

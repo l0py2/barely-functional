@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
 	}
 	
 	for(const removedItem of global.removedItems) {
-		event.replaceInput({}, removedItem, 'minecraft:barrier');
-		event.replaceOutput({}, removedItem, 'minecraft:air');
+		event.remove({ input: removedItem });
+		event.remove({ output: removedItem });
 	}
 });

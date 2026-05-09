@@ -18,7 +18,7 @@
 	#Beware: this will convert these blocks into the block specified in defaultTomatoVineRope.
 	enableTomatoVineClimbingTaggedRopes = true
 	#Which rope should Tomato Vines leave behind when broken?
-	defaultTomatoVineRope = "farmersdelight:rope"
+	defaultTomatoVineRope = "supplementaries:rope"
 
 [crafting]
 	#If enabled, the Cooking Pot will provide a Recipe Book on its interface, similar to the one on Crafting Tables and Furnaces.

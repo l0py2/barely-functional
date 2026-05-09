@@ -1,1 +1,19 @@
-[]
+[
+	{
+		"spawntype": [
+			"spawner", "structure",
+			"command", "mob_summoned", "event",
+			"breeding",
+			"spawn_egg", "bucket", "dispenser"
+		],
+		"when": "onjoin",
+		"result": "default"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"hostile": true,
+		"minheight": 32,
+		"when": "onjoin",
+		"result": "deny"
+	}
+]
