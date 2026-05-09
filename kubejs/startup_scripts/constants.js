@@ -26,3 +26,17 @@ global.corals = [
 	'fire',
 	'horn'
 ];
+
+global.woodTypes = [
+	'oak',
+	'spruce',
+	'birch',
+	'jungle',
+	'acacia',
+	'dark_oak',
+	'mangrove',
+	'cherry',
+	'crimson',
+	'warped',
+	'bamboo'
+];

@@ -330,7 +330,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "5b11e13e9508e0808cdc456cb74791fa3f645ce416071ae6886aed0e67be31ef"
+hash = "8611caccad632ae5b6e7cab1b452eb4f0873db2570487609804da32a8c3735c7"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -422,7 +422,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "4b64729c3b9c7b307bbed4e3eca878be854e7248673c9467241fd466569badeb"
+hash = "3bc705fe070401bd37d9298779ab70bf082fd37854420b9b1c603b137ac93c95"
 
 [[files]]
 file = "config/paxi-neoforge-1_21.toml"
@@ -674,7 +674,7 @@ hash = "2094ac3cfc4c8bc104663d154bc9a9c98fc84b897d7a6e91f0c75146d71f8285"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/apply.js"
-hash = "1df2b8ead9e7fe0960f4b126314dde2577e36d2a3d6b0d3635fa136fa4b333f5"
+hash = "5ff4c4eed47b5d3132573bc283f8990e15e9485e5cb476b2439d01e888e26677"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/mods/create/copper.js"
@@ -695,6 +695,10 @@ hash = "5484a01ce7dbdc824b249dee704bf7f3677346ed22323185767447730c489505"
 [[files]]
 file = "kubejs/server_scripts/block-cutting/mods/create/windows.js"
 hash = "b65f9af9145f8d7f943749b16ae41eb443ab254a5360f975a8c79470c2582b48"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/handcrafted/trims.js"
+hash = "95af899ae6a8607c5fa06abeba81b2e6aed34071b2feec19693e3d6f1cc0a9de"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/bricks/bricks.js"
@@ -793,8 +797,20 @@ file = "kubejs/server_scripts/block-cutting/mods/minecraft/wood/misc.js"
 hash = "1ba97ecc3da853b5ef84e0f1417d28e5097c5b2ae0fd248a5fbaf4d52b6b32da"
 
 [[files]]
+file = "kubejs/server_scripts/block-cutting/mods/supplementaries/ash-bricks.js"
+hash = "48be1393e4de4151a0bfa0bf40405ee94b24049d5e32628b9b1e4fb09db124f8"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/supplementaries/checker.js"
+hash = "0a1100fd830b79107f0dfa15d2654c66b2b504e4b4ac7354f2e24b117213ff2f"
+
+[[files]]
 file = "kubejs/server_scripts/block-cutting/variables.js"
 hash = "eab28f0821aff74a99cc5fe4e6b77829b6111a6e2e2b125c413e90794af57890"
+
+[[files]]
+file = "kubejs/server_scripts/mods/handcrafted/books.js"
+hash = "b8c7600503505a8cf8b4c22c2e22e7e38e0134ca247fb1f1abf8926c8054748d"
 
 [[files]]
 file = "kubejs/server_scripts/mods/kubejs/oxidize-copper.js"
@@ -805,12 +821,16 @@ file = "kubejs/server_scripts/mods/minecraft/smelting-to-blasting.js"
 hash = "e084f32a927600441e832965a25680190ca743c762c001888bdebb0764985532"
 
 [[files]]
+file = "kubejs/server_scripts/mods/sophisticated-storage/chests.js"
+hash = "a118c4c86395b51ebb7e65ef75b33f39effba00efc4dacad525cde156254d890"
+
+[[files]]
 file = "kubejs/server_scripts/unify.js"
 hash = "1ea3b6aae24a844b82ab0a799d5372a45d82677f82aca0c4e91c80d7834be754"
 
 [[files]]
 file = "kubejs/startup_scripts/constants.js"
-hash = "0d96568acab14ff08ab7efecc25eab625260f1c7b1808ab8f6ff874e15b354e6"
+hash = "36c6dc6dfc9e6de90a4d92f4d2734ec62250bcb66655b63e0ab8e40877e98e7a"
 
 [[files]]
 file = "kubejs/startup_scripts/unify/mods/create-connected.js"
