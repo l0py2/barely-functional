@@ -1,0 +1,13 @@
+name = "Barely Functional"
+author = "l0py2"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1ea190531953f844e4262cdb083f88659b0eaa12ebf5a6a7adfc226a44dfa353"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.228"

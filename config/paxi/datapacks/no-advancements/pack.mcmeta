@@ -1,0 +1,14 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"description": "Remove all advancements"
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": ".*",
+				"path": "advancement/.*"
+			}
+		]
+	}
+}
