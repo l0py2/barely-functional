@@ -1,16 +1,13 @@
 [
 	{
-		"spawntype": [
-			"spawner", "structure",
-			"command", "mob_summoned", "event",
-			"breeding",
-			"spawn_egg", "bucket", "dispenser"
-		],
-		"when": "onjoin",
-		"result": "default"
-	},
-	{
 		"dimension": "minecraft:overworld",
+		"mob": [
+			"minecraft:zombie", "minecraft:skeleton",
+			"minecraft:spider", "minecraft:creeper",
+			"minecraft:zombie_villager", "minecraft:witch",
+			"minecraft:slime"
+		],
+		"spawntype": "natural",
 		"hostile": true,
 		"minheight": 32,
 		"when": "onjoin",

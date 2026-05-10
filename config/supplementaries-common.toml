@@ -620,7 +620,7 @@
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
 	#Enable Creative Tab
-	creative_tab = true
+	creative_tab = false
 	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
 	dispensers = true
 	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues

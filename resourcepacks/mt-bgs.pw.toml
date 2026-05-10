@@ -1,0 +1,13 @@
+name = "Midnighttigger's Better Grass"
+filename = "Midnighttiggers-F-BGS_1.14_V2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c722ba39feb857f330ae4075a4c2ae0bd0401c0e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6117092
+project-id = 1185585

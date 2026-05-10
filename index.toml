@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "complementary-reimagined.pw.toml"
+hash = "753adc976b00bdb2f4e060e18700d778d0938c76805c46747acccb139fdc7025"
+metafile = true
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -47,6 +52,10 @@ hash = "7127a276c7305371397053cd8d0833e6825c828850626e4067b9fed1430ed217"
 [[files]]
 file = "config/better-advanced-tooltips-client.toml"
 hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
+
+[[files]]
+file = "config/betterf3.toml"
+hash = "609fb091b788267809718af338117678104616be3aae91527648630d8a4ac4b5"
 
 [[files]]
 file = "config/blueprint-client.toml"
@@ -318,7 +327,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "ac2e87bd0beb04a6cddaa8bb980e4038fa0a4d144cf4690eb4b2c0b4bc18b069"
+hash = "72a06c8f213ea75397241de6b83af98dddb4876edd4f0febeb48154a3bc80649"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -330,7 +339,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "c2a5727a3c3b5af3edc359dcb5d94321d49a87c960ace5d344574f33f835da75"
+hash = "07e97bbe76a57e705aeeb1b820754fb17e937e596edd42af6369dee0520981a3"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -422,7 +431,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "fd8713e1f5e1538c1c68465f3952b551dd06b862d48a50c29b9e4ab19440b18f"
+hash = "960f36084608fdfebfcaa691a20e972b034eea91a3decade469b700a823beea2"
 
 [[files]]
 file = "config/paxi-neoforge-1_21.toml"
@@ -538,7 +547,7 @@ hash = "9bf9e56551d526a377575fbe923ef2ade7a4ef9e20d9cd6a4755ef1dfaea4d4d"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "4227c554bd189a001985189668aa7e7952b6163bacd003edaa4de3024b78b7dd"
+hash = "76509eed51fb4284bf2d7a76c6c54bd33467d3bb416c907cedbc5a89186fa567"
 
 [[files]]
 file = "config/suppsquared-common.toml"
@@ -598,7 +607,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "db49c4dde15db318eb25e8a43fa06992778f0e17b3a963fff5cbee35da11fb81"
+hash = "20bb97fea730b0202f3379a6372d387651348d75eecad4a1a7d6098988e669e2"
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "a4c13e76500473fe8d555225022542d0ef89708c3d885e233dca15f91e437774"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -618,7 +631,7 @@ hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
 
 [[files]]
 file = "config/xaero/world-map/profiles/default.cfg"
-hash = "7b24c882801bcc7f0a8aedc625d419f661fa490fa0e9d5ebe39599a1ce2dcbd5"
+hash = "e013ef288851dce90cd77970aac13b6469db20a702a0fd8ba3a6a8e4b9b6125c"
 
 [[files]]
 file = "config/xaero/world-map/server_profiles/default.cfg"
@@ -663,6 +676,10 @@ hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 [[files]]
 file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/defaultoptions.txt"
+hash = "043161c03adc7415463be07b5832d4b33213539a7004d74ebe22bdbe2b73f0e1"
 
 [[files]]
 file = "kubejs/config/web_server.json"
@@ -807,6 +824,10 @@ hash = "0a1100fd830b79107f0dfa15d2654c66b2b504e4b4ac7354f2e24b117213ff2f"
 [[files]]
 file = "kubejs/server_scripts/block-cutting/variables.js"
 hash = "eab28f0821aff74a99cc5fe4e6b77829b6111a6e2e2b125c413e90794af57890"
+
+[[files]]
+file = "kubejs/server_scripts/default-commands.js"
+hash = "617641db61522b7f0f7ed3fcc82e631156d72e3aa197e56afd712cb452c092f3"
 
 [[files]]
 file = "kubejs/server_scripts/mods/handcrafted/books.js"
@@ -1260,4 +1281,24 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cubic-sun-moon.pw.toml"
+hash = "987abf62fcc4e3dc807df91e549f20e95ff43b74a49c88ddbc395ea85d398b9b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-block-transitions.pw.toml"
+hash = "29e7e41a66e1c26606f33d59912139cd534ab14ef2c70bbba1da81702716422e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-connected-glass.pw.toml"
+hash = "9558758e85c4d4e25da6c62d2381e24de2794f1307136ee9b4be98ed32baf6ad"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mt-bgs.pw.toml"
+hash = "7a575e3cd017f80abc535b85b619b4aac6d9626fa891695bec2a829cd572db4d"
 metafile = true
