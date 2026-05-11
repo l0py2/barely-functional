@@ -339,7 +339,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "07e97bbe76a57e705aeeb1b820754fb17e937e596edd42af6369dee0520981a3"
+hash = "7a382933dbf2ffa0093857f0c054861c5526b165433479ea95c9a5e41c518e24"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -351,15 +351,15 @@ hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "5754114a0a663b321793a61f741bafa70c2a6dd649657260cdc096600763ad94"
+hash = "ffc389b653fa09904cdb9fe8d170e15c961c08def846040196fdd404c013b47f"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "9a15ad1b5f388aaa3eff63b4acaebdc79f7664938fe39584cad32bb51b61f719"
+hash = "0d7ff0aabc93293a661c2abc4483ca6c97fe127f1a2a7d3db5c59e6d2d734032"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "139fe6db4432e8721104fa6e5851a3a3e5df9350e3db3da2b55c8563edeffd01"
+hash = "99bff568ba27c1f31cbc664869d128504e58aeda6c74829af117f0e9b9eeb4ab"
 
 [[files]]
 file = "config/jei-server.toml"
@@ -431,7 +431,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "960f36084608fdfebfcaa691a20e972b034eea91a3decade469b700a823beea2"
+hash = "6da635657a956850cd616a030c618c5e222a4f4eb61da9ee099e2d998dfe93f4"
 
 [[files]]
 file = "config/paxi-neoforge-1_21.toml"
@@ -547,11 +547,7 @@ hash = "9bf9e56551d526a377575fbe923ef2ade7a4ef9e20d9cd6a4755ef1dfaea4d4d"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "76509eed51fb4284bf2d7a76c6c54bd33467d3bb416c907cedbc5a89186fa567"
-
-[[files]]
-file = "config/suppsquared-common.toml"
-hash = "a3440b61fdcd1dabfd525863005b3da7b281aab793a9a15ffa94d69b34f46449"
+hash = "061fd8c340f5b2d39fbae8c97d2c91995c9b9965685eac8cdf4d64b82569a86b"
 
 [[files]]
 file = "config/visuality/config.toml"
@@ -607,11 +603,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "20bb97fea730b0202f3379a6372d387651348d75eecad4a1a7d6098988e669e2"
+hash = "03c9cddd6a551def6d7c5c59ca8313c7515321d1a0a4806c041168cfd6029fc4"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "a4c13e76500473fe8d555225022542d0ef89708c3d885e233dca15f91e437774"
+hash = "94fc0e69a1754ef80c54e1f3c9193526c620b0ac646f94a4a0f560bcc58826a8"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -631,7 +627,7 @@ hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
 
 [[files]]
 file = "config/xaero/world-map/profiles/default.cfg"
-hash = "e013ef288851dce90cd77970aac13b6469db20a702a0fd8ba3a6a8e4b9b6125c"
+hash = "87522390686b28226508839602e866a9a12e02010f3c891a83dd135361bb87b9"
 
 [[files]]
 file = "config/xaero/world-map/server_profiles/default.cfg"
@@ -762,6 +758,10 @@ file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/end-stone.js"
 hash = "2171e4964e79fdc734aedf627a8a57e89f9f0683d87698d6e167e5b55272aef3"
 
 [[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/gravel.js"
+hash = "6fda71df2ebbf4fc937a2683327b9f39dc86c32ef00d47df05b77cb6d8fb668b"
+
+[[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/misc.js"
 hash = "294d3ce3ddd1400339b07a474636a4f7c867d59553db2f64a3ef7adddf49bb12"
 
@@ -822,12 +822,20 @@ file = "kubejs/server_scripts/block-cutting/mods/supplementaries/checker.js"
 hash = "0a1100fd830b79107f0dfa15d2654c66b2b504e4b4ac7354f2e24b117213ff2f"
 
 [[files]]
+file = "kubejs/server_scripts/block-cutting/mods/supplementaries/gravel.js"
+hash = "26977769c80aa3942596d28de553569196c8a1bc70dc5747fc88ee27b0003ad7"
+
+[[files]]
 file = "kubejs/server_scripts/block-cutting/variables.js"
 hash = "eab28f0821aff74a99cc5fe4e6b77829b6111a6e2e2b125c413e90794af57890"
 
 [[files]]
 file = "kubejs/server_scripts/default-commands.js"
 hash = "617641db61522b7f0f7ed3fcc82e631156d72e3aa197e56afd712cb452c092f3"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/transmission-blocks.js"
+hash = "64bb77d488e3dc0542eff785991cd7106f5b4c3517f40a1a3281e75de54b46e1"
 
 [[files]]
 file = "kubejs/server_scripts/mods/handcrafted/books.js"
@@ -838,8 +846,20 @@ file = "kubejs/server_scripts/mods/kubejs/oxidize-copper.js"
 hash = "d9dd4beecf1a5fa1a9f3fdbc16894b6f7cefca7a8784bbbce787bfdfbd723852"
 
 [[files]]
+file = "kubejs/server_scripts/mods/minecraft/misc.js"
+hash = "23c7e3a4cd28e446f26530a7eea54eea6d55fec81b21faf8c491938cdf925a8b"
+
+[[files]]
+file = "kubejs/server_scripts/mods/minecraft/mount-items.js"
+hash = "fed55f98458ee30c5bed090e45458d8811e51709d2865b7eb62772d1b9d0b0f0"
+
+[[files]]
 file = "kubejs/server_scripts/mods/minecraft/smelting-to-blasting.js"
 hash = "e084f32a927600441e832965a25680190ca743c762c001888bdebb0764985532"
+
+[[files]]
+file = "kubejs/server_scripts/mods/minecraft/work-stations.js"
+hash = "ac5e983747034a1c0ffc77650b7a8d0496564ab0fd0455968cbf0aae3708e619"
 
 [[files]]
 file = "kubejs/server_scripts/mods/sophisticated-storage/barrels.js"
@@ -1109,6 +1129,11 @@ hash = "352bbd56bffa7bb7af6e16ae0e745db85e2d7e9e0ea6037ff866149f6e6e08b8"
 metafile = true
 
 [[files]]
+file = "mods/jade-addons.pw.toml"
+hash = "89420f657cec1038646f75531ae388e92d27c51c84b1f121e935ae5aecf995be"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "e739b7355ab3cfba2e729f8f0b51eafc3d9c3afb19ee30ac7b311631610c5e66"
 metafile = true
@@ -1246,11 +1271,6 @@ metafile = true
 [[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
 hash = "7532b2a14f0e2722b40e89ac41ac14ae117661c81a54babdff9c8719fe796831"
-metafile = true
-
-[[files]]
-file = "mods/supplementaries-squared.pw.toml"
-hash = "36a9973a4f3cd5aef77cf4199ff1a3e243c36a379b6c83c789a2ed7ceddd6986"
 metafile = true
 
 [[files]]
