@@ -32,7 +32,9 @@ ServerEvents.tags('block', event => {
 	}
 });
 
-ServerEvents.recipes(event => {	
+ServerEvents.recipes(event => {
+	mutils.recipes.applyEvent(event);
+	
 	for(const recipeFilter of global.removedRecipes) {
 		event.remove(recipeFilter);
 	}
@@ -42,11 +44,11 @@ ServerEvents.recipes(event => {
 	}
 		
 	for(const [original, replacement] of global.outputReplacements) {
-		event.replaceOutput({}, original, replacement);
+		mutils.event.replaceOutput({}, original, replacement);
 	}
 	
 	for(const removedItem of global.removedItems) {
-		event.remove({ input: removedItem });
-		event.remove({ output: removedItem });
+		event.replaceInput({}, removedItem, 'minecraft:barrier');
+		mutils.event.replaceOutput({}, removedItem, 'minecraft:air');
 	}
 });

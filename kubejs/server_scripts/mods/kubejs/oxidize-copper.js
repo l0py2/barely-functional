@@ -1,18 +1,5 @@
 ServerEvents.recipes(event => {
-	function CreateSplashing(input, output) {
-		let inputName = input.slice(input.indexOf(':') + 1);
-		let outputName = output.slice(output.indexOf(':') + 1);
-		
-		event.custom({
-			type: 'create:splashing',
-			ingredients: [
-				Ingredient.of(input).toJson()
-			],
-			results: [
-				Item.of(output).toJson()
-			]
-		}).id(`kubejs:create/splashing/${inputName}_to_${outputName}`);
-	}
+	mutils.recipes.applyEvent(event);
 	
 	for(const exposedBlock of Ingredient.of('#kubejs:blocks/exposed_copper').itemIds) {
 		let baseBlock = exposedBlock.replace('exposed_', '');
@@ -24,9 +11,9 @@ ServerEvents.recipes(event => {
 		let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 		let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 		
-		CreateSplashing(baseBlock, exposedBlock);
-		CreateSplashing(exposedBlock, wheatheredBlock);
-		CreateSplashing(wheatheredBlock, oxidizedBlock);
+		mutils.event.create_splashing(baseBlock, [exposedBlock]);
+		mutils.event.create_splashing(exposedBlock, [wheatheredBlock]);
+		mutils.event.create_splashing(wheatheredBlock, [oxidizedBlock]);
 	}
 	
 	[
@@ -41,9 +28,9 @@ ServerEvents.recipes(event => {
 			let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 			let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 			
-			CreateSplashing(baseBlock, exposedBlock);
-			CreateSplashing(exposedBlock, wheatheredBlock);
-			CreateSplashing(wheatheredBlock, oxidizedBlock);
+			mutils.event.create_splashing(baseBlock, [exposedBlock]);
+			mutils.event.create_splashing(exposedBlock, [wheatheredBlock]);
+			mutils.event.create_splashing(wheatheredBlock, [oxidizedBlock]);
 		}
 	});
 });

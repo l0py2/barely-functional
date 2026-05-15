@@ -13,3 +13,16 @@ global.removedItems = global.removedItems.concat([
 	'create_connected:copycat_vertical_step',
 	'create_connected:copycat_wall'
 ]);
+
+global.removedRecipes = global.removedRecipes.concat([
+	'create_connected:crafting/palettes/copycat_block_compat',
+	'create_connected:crafting/palettes/copycat_slab_compat',
+	'create_connected:crafting/palettes/copycat_stairs_compat',
+	'create_connected:crafting/palettes/copycat_fence_compat',
+	'create_connected:crafting/palettes/copycat_wall_compat',
+	'create_connected:crafting/palettes/copycat_vertical_step_compat',
+	'create_connected:crafting/palettes/copycat_beam_compat',
+	'create_connected:crafting/palettes/copycat_board_compat',
+	'create_connected:crafting/palettes/copycat_fence_gate_compat',
+	'create_connected:crafting/palettes/copycat_step_from_conversion'
+]);

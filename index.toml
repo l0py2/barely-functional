@@ -338,7 +338,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "bd56041a454c16e844acb375ae9aeaba65ffa0828662e5dd5e7829f0d0843f74"
+hash = "46733492f610edf8e3f28115f50e4598f7055821fc594adf9bcbbebb6c7ce03e"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -430,7 +430,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "965d60fa7709a7a7a953c4eebd30a20b40b665e17db8ea27d664917ff86c94bd"
+hash = "f1a4fd08142227ebc8391c34124e4d1145822f72a00670eb947cae8b978e8cbf"
 
 [[files]]
 file = "config/paxi-neoforge-1_21.toml"
@@ -845,6 +845,10 @@ file = "kubejs/server_scripts/default-commands.js"
 hash = "617641db61522b7f0f7ed3fcc82e631156d72e3aa197e56afd712cb452c092f3"
 
 [[files]]
+file = "kubejs/server_scripts/java-classes.js"
+hash = "ac3ec24124b2f693f29e45cba3343d4310e2ad52419a817c1914647c4895e58f"
+
+[[files]]
 file = "kubejs/server_scripts/mods/create/transmission-blocks.js"
 hash = "64bb77d488e3dc0542eff785991cd7106f5b4c3517f40a1a3281e75de54b46e1"
 
@@ -854,7 +858,7 @@ hash = "b8c7600503505a8cf8b4c22c2e22e7e38e0134ca247fb1f1abf8926c8054748d"
 
 [[files]]
 file = "kubejs/server_scripts/mods/kubejs/oxidize-copper.js"
-hash = "d9dd4beecf1a5fa1a9f3fdbc16894b6f7cefca7a8784bbbce787bfdfbd723852"
+hash = "d9589a55333611e158b50813aff63d8be5ea2b42bf963743ab41bda05436607b"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/misc.js"
@@ -881,8 +885,76 @@ file = "kubejs/server_scripts/mods/sophisticated-storage/chests.js"
 hash = "333175a4cbfb9cfe7b5459d8460f492b7d974c50ff58b80f0551638270671a98"
 
 [[files]]
+file = "kubejs/server_scripts/mutils/mods/common/output-replacers.js"
+hash = "d42b9fc1a53d791dbabe452864e1ced0b1caabd96b0d4aa91167336d3b97d5f0"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/compacting.js"
+hash = "9ae408ecf9247cfe167c509125b6e942d9803a084eb60ffde339f04083adf5a8"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/crushing.js"
+hash = "b2b598a21dae654f649b9442fe8ba2fd2502f5257d2393c3c174a8bcab474d5e"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/cutting.js"
+hash = "3e09394bd5fa15855d00d5113fd9e2245498edb0be5e89f5460ccec4e95b9167"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/deploying.js"
+hash = "81c97b38ad2a55e226ef28ba1f1f4d04e299f707a2f27ad913517ac9791c4aa0"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/filling.js"
+hash = "55c6c03e1711c194180aefc63935a32115d809176c5caf261ce94cf18fae38be"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/fluid.js"
+hash = "6f1e7c456e57ce88030ccb854fd6f9a20f7680799b28b424e34c521e77aa1e7f"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/item-application.js"
+hash = "8fb721d44c55ca98a19afdfe29fd9863fd1443ad4a9051a0df50a05085673a72"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/item.js"
+hash = "83a3bd6f52d82b5f899cf68cf2ba36807dcff9c787b1202d31ad846c42ed937e"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/mechanical-crafting.js"
+hash = "a0f794dd1b2d1a8e1259f76fbf948b54fd817dc2cc3dad052a8ae1d2ee1859fb"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/milling.js"
+hash = "be124ab2f076530de20990c64fcd0527cfc72bd28ec4ba6b372c17a08a92d983"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/mixing.js"
+hash = "dde75f9b4f27adf157362f2ab34350f7cad35bc09bebf9162ff0b8c76843f4c6"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/pressing.js"
+hash = "8d69eca6e5a0470fcf76c9ccab351272cd7947d6d45cd1366fcda5c83acee206"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/sequenced-assembly.js"
+hash = "e61f433cc8cc63fe3088750343b2224c1aa5cd88e24f679c9eaccb19cf1133b6"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mods/create/splashing.js"
+hash = "ccea8fe7e4115d11843ef5fd41d0b1269f423a56d268ba6f90696bac7373e857"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/mutils.js"
+hash = "0837741c746b245cdf5e7a65d1ceb578085541075bd1d33d7abd790fe196f380"
+
+[[files]]
+file = "kubejs/server_scripts/mutils/recipes.js"
+hash = "0773d9d68546b04ab20c97f25781c9fe3bf851bc5ae9858d8737efaa43938f78"
+
+[[files]]
 file = "kubejs/server_scripts/unify.js"
-hash = "1ea3b6aae24a844b82ab0a799d5372a45d82677f82aca0c4e91c80d7834be754"
+hash = "77ecd093db4d22f1ff49914f11c2532378cad0e5b47679c8723e0c331afef2c6"
 
 [[files]]
 file = "kubejs/startup_scripts/constants.js"
@@ -890,7 +962,7 @@ hash = "36c6dc6dfc9e6de90a4d92f4d2734ec62250bcb66655b63e0ab8e40877e98e7a"
 
 [[files]]
 file = "kubejs/startup_scripts/unify/mods/create-connected.js"
-hash = "07d3f0475529d02ff7ff2b899cc79dcf5e801cf25f27e1c2358e5fa77ebba282"
+hash = "c65914777fd58fd598faec560b513c497006b42eaa6bae719996b07dc09faf46"
 
 [[files]]
 file = "kubejs/startup_scripts/unify/mods/create-diesel-generators.js"
@@ -914,11 +986,11 @@ hash = "7bdfa247825dab54ae987d1df4e0f4977ca4ec5d007c23e8d5c102f222310f78"
 
 [[files]]
 file = "kubejs/startup_scripts/unify/mods/sophisticated-backpacks.js"
-hash = "add0bb57efdff2d9a28aef7ceca11002d96de7b4545cb1ea89eaa0bfd5b0210d"
+hash = "ed649382bb45ade7af2eb49a8d7818a84438eb9a7842c198f4953775ed00f7b5"
 
 [[files]]
 file = "kubejs/startup_scripts/unify/mods/sophisticated-storage.js"
-hash = "26b3a3593a3675c012814f272aa6a1d7d207695f6d87ef6acd4b0243de0a3e23"
+hash = "65f703eaa90dec27826a70f3bc26455908a896462ff9dfa57c6c13424e30afba"
 
 [[files]]
 file = "kubejs/startup_scripts/unify/variables.js"
