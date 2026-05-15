@@ -1,13 +1,13 @@
-name = "CobbleGen [Fabric/(Neo)Forge]"
+name = "CobbleGen"
 filename = "cobblegen-5.4.8+1.21.1b1383-BETA-neoforge.jar"
-side = "both"
+side = "server"
 
 [download]
-hash-format = "sha1"
-hash = "b868b964ac03ab3e62b999303c7e8aeac1681872"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/qRogT5Gy/versions/pxQoqEwj/cobblegen-5.4.8%2B1.21.1b1383-BETA-neoforge.jar"
+hash-format = "sha512"
+hash = "fbdd5b4a8f2ab08c67ef8882f5af70f3b69779992bba1abb0c3b53ed0c67cf974cd3fd590ccf68f649bfe7870172bdaa873cc4aaf7d3d0c98abdef3038edb713"
 
 [update]
-[update.curseforge]
-file-id = 7746312
-project-id = 581293
+[update.modrinth]
+mod-id = "qRogT5Gy"
+version = "pxQoqEwj"
