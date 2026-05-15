@@ -339,7 +339,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "7a382933dbf2ffa0093857f0c054861c5526b165433479ea95c9a5e41c518e24"
+hash = "8fab938e6aedc9737f25bf192002f2898eb4974df8d616dea3cc0c664996b310"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -431,7 +431,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "6da635657a956850cd616a030c618c5e222a4f4eb61da9ee099e2d998dfe93f4"
+hash = "baa9a399d8e6475a992685e5e7713374867ac4987546be03dd51128cdf940277"
 
 [[files]]
 file = "config/paxi-neoforge-1_21.toml"
@@ -507,7 +507,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "445a55bccce87dd8467f3265d1572827e8778e873e3bb70290adf0bb8a811e96"
+hash = "00c7dd465e12693baeb0f9844848eb087f627d98827df51111b080af462d7d73"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -671,11 +671,11 @@ hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 
 [[files]]
 file = "kubejs/config/common.json"
-hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+hash = "716ab13eb66d0ed1558d33bf99e2a3d41c69b3ac49a21ec6f6e5ff5e5743ea82"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "043161c03adc7415463be07b5832d4b33213539a7004d74ebe22bdbe2b73f0e1"
+hash = "991bf2006a4d4b032c75dfb2426b88da44e57f58a9afe028bd9b02f95a63043b"
 
 [[files]]
 file = "kubejs/config/web_server.json"
@@ -954,13 +954,13 @@ hash = "3ec3f227220562968dca05112e168c27e9027f43ec53bef1015c0c342b4bab19"
 metafile = true
 
 [[files]]
-file = "mods/cc-tweaked-cf-port-unoffical.pw.toml"
-hash = "93a27911beb0327997b94872671214c88d865a11d37a388e2554e6ecb864ca59"
+file = "mods/cc-tweaked.pw.toml"
+hash = "d18f00631377bb11109c6cf3c67261aeedec73e79727e50019e91a913ec88183"
 metafile = true
 
 [[files]]
 file = "mods/cccbridge.pw.toml"
-hash = "50b018038be4fa007f3e2edadced2aad21d5f840e290a99bbc0383f00858e3f6"
+hash = "af5be21b70b778bd919a8d10807895fad40671c9701519dbf95bc74f139fec3f"
 metafile = true
 
 [[files]]
@@ -975,7 +975,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorwheel.pw.toml"
-hash = "0e8fd6ac8a106eecba224841a91a0b7e667e0a6fcb35766ea77007cd55bd1f49"
+hash = "535f6abfd1a130b6f207796e974963dc26ad93b6928463099403340a8a1f5a33"
 metafile = true
 
 [[files]]
@@ -1070,7 +1070,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "1fc8ab07ea6f6abf5252a680f4ee72d7feaa652bc6b17214b1ddc5f5fe4c5d6d"
+hash = "8491436f99726aff4cd90644496679665f910b51822d9aac38401d0c70dfc61a"
 metafile = true
 
 [[files]]
@@ -1235,7 +1235,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "dcce7f37c9f3da5854b4124285bf9cbfa9e4860de6ca1771e70e89c1b7601f1e"
+hash = "fb4cb5f278fda661f007ae65efc18a576ec13f12a7975c87498e034d23b7c631"
 metafile = true
 
 [[files]]
@@ -1276,6 +1276,16 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "98d78c67c203a2c4ee387326c38edfcbe92a813346920b7762f607e1537ed4ea"
+metafile = true
+
+[[files]]
+file = "mods/terralith-biome-saplings.pw.toml"
+hash = "61d849b5dd59f7f9ccf950bbce846363c89dacd6a68af977c7cfa2f29c0ef8a6"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "0e02e93b9468dca005f7fea385e92612e38bb6807f4dcd64ce7a4b22fac78581"
 metafile = true
 
 [[files]]

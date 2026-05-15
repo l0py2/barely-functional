@@ -154,11 +154,11 @@ key_iris.keybind.wireframe:key.keyboard.unknown
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_simulated.keyinfo.rotate_mode:key.keyboard.tab
 key_simulated.keyinfo.scroll_up:key.keyboard.unknown
 key_simulated.keyinfo.scroll_down:key.keyboard.unknown
@@ -200,7 +200,7 @@ key_key.jei.previousCategory:key.keyboard.unknown
 key_key.jei.nextCategory:key.keyboard.unknown
 key_key.jei.closeRecipeGui:key.keyboard.unknown
 key_key.jei.copy.recipe.id:key.keyboard.unknown
-key_powergrid.keyinfo.rotate_component:key.keyboard.unknown
+key_powergrid.keyinfo.rotate_component:key.keyboard.r
 key_powergrid.keyinfo.place_trace:key.keyboard.unknown
 key_powergrid.keyinfo.delete_area:key.keyboard.unknown
 key_powergrid.keyinfo.pick_component:key.keyboard.unknown
