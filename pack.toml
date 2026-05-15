@@ -1,12 +1,12 @@
 name = "Barely Functional"
-author = "l0py2"
+author = "l0py2, Lagosta4K"
 version = "0.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "deacca0860bcb256f5276919af599bd540a2e0bf36ff985460ea42921ad73088"
+hash = "6cf254620de2252fa745a69eb8db3b35c3cda5881df77672212503c571059ea1"
 
 [versions]
 minecraft = "1.21.1"

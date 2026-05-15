@@ -338,7 +338,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "46733492f610edf8e3f28115f50e4598f7055821fc594adf9bcbbebb6c7ce03e"
+hash = "4ed7462eff625197342734a337e0065ce2be979fcb28256e9cff55cfe093189c"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -695,6 +695,10 @@ hash = "8df03b2516934fd3caf7e088cb8afd33c6af7c481a9f2163aefbc6ad36067300"
 [[files]]
 file = "kubejs/data/brewinandchewin/recipe/cooking/fiery_fondue_pot.json"
 hash = "2094ac3cfc4c8bc104663d154bc9a9c98fc84b897d7a6e91f0c75146d71f8285"
+
+[[files]]
+file = "kubejs/data/create_new_age/worldgen/configured_feature/magnetite_block.json"
+hash = "2d3802bef662305eb2acd612eea28b343e1f46a58db04adb44755aee86f12a7c"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/apply.js"
